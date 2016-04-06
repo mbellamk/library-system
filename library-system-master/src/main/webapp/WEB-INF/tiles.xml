@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+        
+<tiles-definitions>
+
+    <definition name="base.defination" template="/WEB-INF/pages/tiles/layout.jsp">
+       <put-attribute name="title" value=""/>
+       <put-attribute name="header" value="/WEB-INF/pages/tiles/header.jsp"/>
+       <put-attribute name="footer" value="/WEB-INF/pages/tiles/footer.jsp"/>
+       <put-attribute name="menu" value="/WEB-INF/pages/tiles/menu.jsp"/>
+       <put-attribute name="body" value=""/>
+    </definition>
+    <definition name="student-login" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/student-login.jsp"/>
+    </definition>
+    <definition name="student-login-borrow" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/student-login-borrow.jsp"/>
+    </definition>
+     <definition name="student-login-failure" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/student-login-failure.jsp"/>
+    </definition>
+    <definition name="admin-login-failure" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/admin-login-failure.jsp"/>
+    </definition>
+    <definition name="student-popularbook-list" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/student-popularbook-list.jsp"/>
+    </definition>
+    <definition name="reserve-success" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/reserve-success.jsp"/>
+    </definition>
+    <definition name="student-book-list" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/student-book-list.jsp"/>
+    </definition>
+     <definition name="book-form" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/book-form.jsp"/>
+    </definition>
+
+   <definition name="book-list" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/book-list.jsp"/>
+    </definition>
+    <definition name="edit-form" extends="base.defination" >
+       <put-attribute name="title" value=""/>
+       <put-attribute name="body" value="/WEB-INF/pages/edit-form.jsp"/>
+    </definition>
+
+    <definition name="form-success" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/form-success.jsp"/>
+    </definition>
+      <definition name="admin-login" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/admin-login.jsp"/>
+    </definition>
+    <definition name="admin-login-sucess" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/admin-login-sucess.jsp"/>
+    </definition>
+    <definition name="admin-login-failure" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/admin-login-failure.jsp"/>
+    </definition>
+<definition name="menu2" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/menu2.jsp"/>
+    </definition>
+<definition name="home" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/home.jsp"/>
+    </definition>
+    <definition name="responsibility" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/responsibility.jsp"/>
+    </definition>
+    <definition name="about" extends="base.defination">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="/WEB-INF/pages/about.jsp"/>
+    </definition>
+</tiles-definitions>        
